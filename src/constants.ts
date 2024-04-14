@@ -1,0 +1,1 @@
+export const PRIME_WINDOW_KEY = ['PREV++', 'PREV+', 'PREV' , 'CURRENT','NEXT' ,'NEXT+' ,'NEXT++'] as const

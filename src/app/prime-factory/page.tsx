@@ -1,6 +1,6 @@
 'use client'
 import { ChangeEventHandler, MouseEventHandler, useMemo, useState } from "react"
-import primeFactory from "../../../utils/primeFactory";
+import primeFactory from "@/utils/primeFactory";
 
 export default function PrimeFactoryGist() {
     const [value, setValue] = useState(1);
