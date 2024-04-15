@@ -5,7 +5,7 @@ import Carousel from "@/components/carousel";
 import { PRIME_WINDOW_KEY } from "@/constants";
 
 export default function PrimeWindowGist() {
-    const [currentValue, setCurrentValue] = useState(1);
+    const [currentValue, setCurrentValue] = useState(23);
 
     const data = useMemo(() => primeWindow(currentValue).map((prime, index) => ({
         prime,
